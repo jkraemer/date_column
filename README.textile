@@ -1,10 +1,8 @@
-Date_column
-===========
+h1. "date_column":http://github.com/jkraemer/date_column/tree/master
 
 Written by Jens Kraemer (jk@jkraemer.net)
 
-Examples
-========
+h2. Examples
 
 # this will create a start_date_value virtual attribute for use with a text
 # field in your forms.
@@ -17,8 +15,8 @@ date_column :start_date
 # record with an empty end_date field.
 date_column :end_date, :offset => 1.day, :default => '1.month.from_now'
 
-Todo
-====
+h3. Todo
+
 support for other date formats than 'dd.mm.yyyy'
 
 
