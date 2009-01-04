@@ -4,6 +4,7 @@ written by Jens Kraemer (jk@jkraemer.net)
 
 h2. Examples
 
+    <pre><code>
     # this will create a start_date_value virtual attribute for use with a text
     # field in your forms.
     date_column :start_date
@@ -14,6 +15,7 @@ h2. Examples
     # :default is eval'd if present to initialize the text field when displaying a
     # record with an empty end_date field.
     date_column :end_date, :offset => 1.day, :default => '1.month.from_now'
+    </code></pre>
 
 h3. Todo
 
